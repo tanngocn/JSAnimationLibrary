@@ -1,0 +1,73 @@
+ *{ margin:0; padding: 0;}
+
+.svg svg{
+		transform-origin:50% 0%;
+}
+
+.svg  {
+    position: absolute;
+    bottom: -99%;
+    left: 0;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+}
+
+.den small {display: block;position: absolute;top: 60%;left: 50%;z-index: 4;transform: translateX(-50%);cursor: pointer;transition: 0.5s;font-size: 20px;}
+
+.den small:hover {
+    color: red;
+}
+
+h4.title {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.den {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: table;
+}
+
+a.nut2 {
+    position: absolute;
+    top: 50%;
+    right: 52%;
+    z-index: 2;
+    padding: 17px;
+    background: white;
+}
+
+a.nut1 {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    z-index: 2;
+    padding: 17px;
+    background: white;
+}
+
+.bo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.trong {
+    width: 100%;
+    height: 100%;
+    background: url(bg.jpg) center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+body,html {width: 100%;height: 100%;}

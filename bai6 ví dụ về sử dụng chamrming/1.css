@@ -1,0 +1,30 @@
+*{margin: 0;padding: 0;}
+
+h1.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    margin: 0;
+}
+p.subtitle {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 39px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background: #2d2c2c;
+    color: white;
+}
+.title span, .subtitle span{
+    display: inline-block;
+    white-space: pre;
+    /*neu khong co thi html ko hieu dau cach va cho nhung khoang dau cách bi mat di*/
+    /*tác dụng làm cho html hiểu dấu cách ứng với 1 thẻ một kí tự*/
+
+}

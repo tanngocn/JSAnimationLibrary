@@ -1,0 +1,46 @@
+*{margin: 0;padding: 0;}
+
+.anh polygon {
+    stroke: mediumvioletred;
+    fill: none;
+    stroke-dasharray: 1000;
+    stroke-dashoffset:1000;
+     animation:vera 2s infinite;
+
+}
+@-webkit-keyframes vera{
+    from{stroke-dashoffset:1000;}
+    to {stroke-dashoffset:0;}
+}
+.anh {
+    width: 200px;
+    height: 200px;
+}
+
+h1.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    margin: 0;
+}
+p.subtitle {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 39px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.title span, .subtitle span{
+    display: inline-block;
+    white-space: pre;
+    /*neu khong co thi html ko hieu dau cach va cho nhung khoang dau cÃƒÂ¡ch bi mat di*/
+    /*tÃƒÂ¡c dÃ¡Â»Â¥ng lÃƒÂ m cho html hiÃ¡Â»Æ’u dÃ¡ÂºÂ¥u cÃƒÂ¡ch Ã¡Â»Â©ng vÃ¡Â»â€ºi 1 thÃ¡ÂºÂ» mÃ¡Â»â„¢t kÃƒÂ­ tÃ¡Â»Â±*/
+
+}
